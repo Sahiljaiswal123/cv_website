@@ -232,100 +232,63 @@ skillsGrid.innerHTML = skills.map(s => `
 // ============================================================
 const projects = [
   {
+    icon: '🩺',
+    title: 'Companion WebApp',
+    subtitle: 'Healthcare AI · IoT · Remote Motor Symptom Assessment Platform',
+    desc: 'A full-stack clinical companion platform for remote assessment of Parkinsonian motor symptoms — combining a smartphone camera, an ESP32 microcontroller and a Raspberry Pi into a home-based kit that captures and scores tremor, bradykinesia and handwriting performance using custom DSP pipelines aligned with MDS-UPDRS-style motor assessments.',
+    tech: ['Python', 'Flask', 'Flask-SocketIO', 'NumPy', 'SciPy', 'MediaPipe', 'ESP32', 'Raspberry Pi', 'WebSocket', 'BLE (Bleak)', 'Cryptography'],
+    features: [
+      'Real-time multi-device sensor fusion (ESP32 IMU, Raspberry Pi force sensors, browser camera)',
+      'MediaPipe-based finger-tapping analysis for bradykinesia assessment',
+      'IMU-based tremor detection with spectral analysis, entropy & Q-factor estimation',
+      'BLE device provisioning with automatic discovery & fallback (Network Scan → BLE → Manual IP)',
+      'Encrypted session storage with locally generated TLS certificates',
+      'Session history with CSV/JSON export and clinical assessment reports'
+    ],
+    architecture: 'Smartphone Camera + ESP32 IMU + Raspberry Pi Sensors → WebSocket/BLE → Flask-SocketIO Backend → DSP Pipeline (NumPy/SciPy) → Clinical Motor Scores',
+    responsibilities: [
+      'Designed the complete Flask backend architecture', 'Built real-time communication via Flask-SocketIO & WebSockets',
+      'Implemented the DSP pipeline for tremor & bradykinesia scoring', 'Built BLE device provisioning & pairing workflows',
+      'Designed the device discovery & fallback mechanism', 'Integrated MediaPipe for computer-vision movement tracking',
+      'Integrated ESP32 & Raspberry Pi firmware', 'Implemented encrypted storage & secure communication'
+    ]
+  },
+  {
     icon: '🅿️',
     title: 'Spot Sense AI',
-    subtitle: 'ML + Computer Vision · Smart Parking System · M.Sc. Final Year Project',
-    desc: 'AI-powered parking management platform that automates the full parking lifecycle — number-plate detection, slot allocation, entry/exit logging, automatic billing, email notifications and payments — via a Flask web portal and a Tkinter desktop GUI.',
-    tech: ['Python', 'Flask', 'OpenCV', 'OCR', 'Tkinter', 'SQL', 'SMTP', 'Payment Gateway'],
+    subtitle: 'ML + Computer Vision · Smart Parking Management System',
+    desc: 'AI-powered smart parking management system that automates vehicle entry, automatic number plate recognition, parking allocation, billing and exit management using computer vision.',
+    tech: ['Python', 'Flask', 'OpenCV', 'YOLO', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Tkinter'],
     features: [
-      'OCR-based vehicle number-plate detection', 'User auth with sessions',
-      'Automatic slot allocation & live status', 'Duration-based automatic billing',
-      'Email confirmations & payment receipts', 'Admin dashboard with revenue reports'
+      'Automatic Number Plate Recognition (ANPR)', 'Parking slot allocation & tracking',
+      'Real-time parking availability', 'Vehicle entry & exit management',
+      'Parking fee calculation & email receipt generation', 'Admin dashboard with parking history & reports'
     ],
-    architecture: 'Camera → OpenCV → OCR Detection → Vehicle Number → Database → Slot Allocation → Billing → Email + Payment',
+    architecture: 'Camera → OpenCV/YOLO → ANPR → MySQL Database → Slot Allocation → Billing → Email Receipt',
     responsibilities: [
-      'Designed the end-to-end architecture', 'Built the Flask backend & SQL database',
-      'Built the Tkinter desktop GUI with camera integration', 'Integrated OCR, billing, email and payment workflows'
+      'Developed the Flask backend & APIs', 'Integrated OpenCV-based ANPR',
+      'Designed the MySQL database', 'Built authentication & billing modules',
+      'Developed the Tkinter interface'
     ]
   },
   {
     icon: '🏥',
-    title: 'SCAN Patient Information System',
-    subtitle: 'SCAN, IIT Bombay · Healthcare Management System',
-    desc: 'A web-based patient information system for managing records across hospitals and departments, with dynamic disease-specific forms and a MySQL-backed admin console — including a dedicated Alzheimer’s patient intake form.',
-    tech: ['Flask', 'HTML/CSS/JS', 'MySQL', 'SQLAlchemy', 'JWT', 'Docker'],
+    title: 'SCAN Forms Management System',
+    subtitle: 'SCAN, IIT Bombay · Patient & Request Management Platform',
+    desc: 'A secure request and patient management platform developed for SCAN at IIT Bombay to manage clinical requests, approvals and patient information through real-time workflows, including dynamic disease-specific intake forms.',
+    tech: ['Flask', 'Firebase Authentication', 'Firestore', 'Firebase Realtime Database', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
     features: [
-      'Hospital, department & doctor selection', 'Dynamic, multi-step patient registration forms',
-      'Alzheimer’s-specific medical intake form', 'Admin dashboard: search, filter, review submissions',
-      'Session/JWT authentication', 'Dockerized Flask + MySQL deployment'
+      'Firebase Authentication with role-based access control', 'Dynamic, multi-step patient registration & intake workflow',
+      'Request submission & tracking with admin approval dashboard', 'Real-time Firestore & Realtime Database synchronization',
+      'Search & filtering across patients and requests', 'JWT-secured REST APIs'
     ],
-    architecture: 'Browser → HTML/CSS/JS → Flask API → SQLAlchemy → MySQL → Admin Dashboard',
+    architecture: 'Browser → HTML/CSS/JS → Flask REST API → Firebase (Auth, Firestore, Realtime DB) + MySQL → Admin Dashboard',
     responsibilities: [
-      'Full-stack development end-to-end', 'Database design & MySQL/SQLAlchemy integration',
-      'Built dynamic multi-step forms', 'Docker deployment of the full stack'
+      'Developed the Flask backend & REST APIs', 'Integrated Firebase services (Auth, Firestore, Realtime DB)',
+      'Implemented JWT authentication', 'Built the admin approval dashboard',
+      'Connected MySQL and Firebase databases', 'Implemented secure role-based authorization'
     ]
   },
-  {
-    icon: '📝',
-    title: 'Request Management System',
-    subtitle: 'SCAN, IIT Bombay · Approval Workflow Portal',
-    desc: 'A request-approval portal where users submit requests and admins approve or reject them in real time, backed by Firebase for auth/data and a JWT-secured Flask REST API.',
-    tech: ['Flask', 'Firebase Firestore', 'Firebase Auth', 'MySQL', 'JWT', 'JavaScript'],
-    features: [
-      'User & admin login with role-based access', 'Submit requests & view request history',
-      'Approve / reject dashboard for admins', 'Real-time updates via Firestore',
-      'Search & filter across requests', 'JWT-secured REST CRUD APIs'
-    ],
-    responsibilities: [
-      'Firebase (Firestore, Auth, Realtime DB) integration', 'JWT authentication & REST APIs on Flask',
-      'Built both user and admin dashboards'
-    ]
-  },
-  {
-    icon: '🐋',
-    title: 'Dockerized Flask + MySQL Application',
-    subtitle: 'Production Deployment on Synology NAS',
-    desc: 'A production-style multi-container deployment of a Flask + MySQL application, with a static-IP macvlan network for direct LAN addressing and persistent storage on a Synology NAS.',
-    tech: ['Docker', 'Docker Compose', 'Flask', 'MySQL', 'SQLAlchemy'],
-    features: [
-      'Multi-container app via Docker Compose', 'Static IP with macvlan networking',
-      'Persistent volumes for database storage', 'Environment-variable driven config',
-      'Reverse proxy support'
-    ],
-    responsibilities: [
-      'Wrote Dockerfiles & Compose configuration', 'Configured macvlan networking & static IP',
-      'Set up MySQL persistence & container lifecycle management'
-    ]
-  },
-  {
-    icon: '📧',
-    title: 'Enterprise Mail Server',
-    subtitle: 'SCAN, IIT Bombay · Ubuntu Server',
-    desc: 'A self-hosted enterprise mail server providing secure organizational email, group addresses and authenticated SMTP/IMAP for internal communication.',
-    tech: ['Postfix', 'Dovecot', 'SMTP', 'IMAP', 'DNS', 'SSL'],
-    features: [
-      'Organizational & group email addresses', 'Secure authenticated SMTP/IMAP',
-      'DNS & SSL/TLS configuration', 'User & mailbox management'
-    ],
-    responsibilities: [
-      'Installed & configured Postfix + Dovecot', 'Set up DNS records & SSL certificates',
-      'Managed user accounts & group email lists'
-    ]
-  },
-  {
-    icon: '🔐',
-    title: 'Full JWT Authentication System',
-    subtitle: 'Reusable Auth Framework for Flask Apps',
-    desc: 'A complete, reusable authentication and authorization framework built for Flask applications, covering token issuance, protected routes and role-based access.',
-    tech: ['Flask', 'JWT', 'MySQL'],
-    features: [
-      'Registration & login with password hashing', 'JWT issuance & validation',
-      'Protected/role-guarded routes', 'Admin vs. user role separation', 'Session management'
-    ],
-    responsibilities: [
-      'Designed token-based auth & authorization flow', 'Implemented protected routes & API security'
-    ]
-  }
 ];
 
 const projectsGrid = document.getElementById('projectsGrid');
