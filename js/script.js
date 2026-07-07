@@ -289,6 +289,26 @@ const projects = [
       'Connected MySQL and Firebase databases', 'Implemented secure role-based authorization'
     ]
   },
+  {
+    icon: '📋',
+    title: 'Request Management System',
+    subtitle: 'Order Approval System · Full-Stack Web Application',
+    desc: 'A secure web-based Request Management System to streamline the submission, tracking, approval and management of service and purchase requests within an organization, with separate user and administrator portals for real-time request processing and role-based access control.',
+    tech: ['Python', 'Flask', 'MySQL', 'SQLAlchemy', 'Firebase Authentication', 'Firebase Firestore', 'Firebase Realtime Database', 'HTML5', 'CSS3', 'JavaScript', 'Docker'],
+    features: [
+      'Secure registration & login via Firebase Authentication', 'Submit, edit, cancel & track service/purchase requests in real time',
+      'Admin approval/rejection workflow with remarks', 'Search, filter & sort requests with dashboard statistics',
+      'MySQL + SQLAlchemy backend synced with Firebase Firestore/Realtime Database', 'Dockerized deployment for consistent dev/production environments'
+    ],
+    architecture: 'Browser (User/Admin) → Flask REST API → SQLAlchemy → MySQL + Firebase (Auth, Firestore, Realtime DB) → Dockerized Deployment',
+    responsibilities: [
+      'Designed the complete database schema & application architecture', 'Developed the Flask backend & REST APIs',
+      'Integrated Firebase Authentication for secure login', 'Connected MySQL using SQLAlchemy ORM',
+      'Developed the user & admin dashboards', 'Built request approval & rejection workflows',
+      'Implemented real-time updates using Firebase Realtime Database', 'Added search, filtering & request history functionality',
+      'Containerized the application using Docker for deployment'
+    ]
+  },
 ];
 
 const projectsGrid = document.getElementById('projectsGrid');
