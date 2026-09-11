@@ -314,6 +314,12 @@ strong{ color: var(--text); font-weight: 600; }
 }
 .cert-link:hover{ background: var(--accent); color: var(--surface); border-color: var(--accent); }
 
+.cert-cta{ animation: fadeInUp .8s ease-out .3s both; }
+@keyframes fadeInUp{
+  from{ opacity: 0; transform: translateY(20px); }
+  to{ opacity: 1; transform: translateY(0); }
+}
+
 /* ================= Education timeline ================= */
 .timeline{ position: relative; max-width: 720px; padding-left: 8px; }
 .timeline::before{
