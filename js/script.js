@@ -359,15 +359,58 @@ projectsGrid.querySelectorAll('.project-toggle').forEach(btn => {
 // Certifications data
 // ============================================================
 const certs = [
-  { icon: '☁️', title: 'AWS Cloud Certification', desc: 'Cloud infrastructure, provisioning & core services' },
-  { icon: '🎩', title: 'Red Hat Enterprise Linux (RHEL)', desc: 'Linux administration & system management' },
-  { icon: '🌐', title: 'Cisco CCNA', desc: 'Enterprise networking, routing & switching' }
+  {
+    icon: '☁️',
+    title: 'Fundamentals of DevOps On AWS',
+    issuer: 'SimpliLearn (AWS)',
+    date: 'Sept 2026',
+    desc: 'Cloud infrastructure, DevOps automation & AWS core services',
+    credentialId: '10716430',
+    links: [
+      { label: 'View Credential', url: 'https://www.credly.com/users/sahiljaiswal24' }
+    ]
+  },
+  {
+    icon: '☁️',
+    title: 'AWS Cloud Practitioner',
+    issuer: 'Amazon Web Services',
+    date: '2024',
+    desc: 'Cloud infrastructure, provisioning & core services',
+    credentialId: null,
+    links: []
+  },
+  {
+    icon: '🎩',
+    title: 'Red Hat Enterprise Linux (RHEL)',
+    issuer: 'Red Hat',
+    date: '2023',
+    desc: 'Linux administration & system management',
+    credentialId: null,
+    links: []
+  },
+  {
+    icon: '🌐',
+    title: 'Cisco CCNA',
+    issuer: 'Cisco Systems',
+    date: '2023',
+    desc: 'Enterprise networking, routing & switching',
+    credentialId: null,
+    links: []
+  }
 ];
 document.getElementById('certGrid').innerHTML = certs.map(c => `
   <div class="cert-card">
     <div class="cert-badge">${c.icon}</div>
     <h3>${c.title}</h3>
+    <p class="cert-issuer">${c.issuer}</p>
+    <p class="cert-date">${c.date}</p>
     <p>${c.desc}</p>
+    ${c.credentialId ? `<p class="cert-id">ID: ${c.credentialId}</p>` : ''}
+    ${c.links.length > 0 ? `
+      <div class="cert-links">
+        ${c.links.map(link => `<a href="${link.url}" target="_blank" rel="noopener" class="cert-link">${link.label}</a>`).join('')}
+      </div>
+    ` : ''}
   </div>
 `).join('');
 
