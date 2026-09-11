@@ -3,8 +3,9 @@
 ## Overview
 This document provides detailed information about all professional certifications and course completions earned by Sahil Vijendra Jaiswal.
 
-**Total Certifications:** 6  
-**Last Updated:** September 2026
+**Total Certifications:** 5  
+**Last Updated:** September 2026  
+**Note:** AWS Cloud Practitioner (2024) maintained but not displayed in gallery (image pending)
 
 ---
 
@@ -135,32 +136,7 @@ Validates networking expertise essential for infrastructure and DevOps roles, in
 
 ---
 
-## 5. AWS Certified Cloud Practitioner
-
-**Issuing Organization:** Amazon Web Services (AWS)  
-**Completion Date:** 2024  
-**Status:** ✅ Active
-
-### Description
-AWS Certified Cloud Practitioner is an entry-level AWS certification that validates foundational knowledge of AWS cloud services, terminology, and best practices.
-
-### Key Topics Covered
-- AWS cloud concepts
-- Core AWS services (compute, storage, database, networking)
-- Security and compliance
-- Billing, pricing, and support
-- Cloud architecture principles
-
-### Relevance
-Validates foundational AWS knowledge essential for cloud engineering roles, including:
-- AWS EC2, S3, Lambda, VPC, and IAM
-- Cost optimization and billing
-- Security best practices
-- Cloud architecture design
-
----
-
-## 6. Red Hat Enterprise Linux (RHEL) Administration
+## 5. Red Hat Enterprise Linux (RHEL) Administration
 
 **Issuing Organization:** Red Hat  
 **Completion Date:** 2023  
@@ -185,6 +161,24 @@ Validates expertise in Linux administration, directly applicable to:
 - System optimization and troubleshooting
 - Infrastructure automation foundations
 - IIT Bombay production infrastructure (RHEL 8 and Ubuntu servers)
+
+---
+
+## Additional Certifications (Not Displayed in Gallery)
+
+### AWS Certified Cloud Practitioner
+
+**Issuing Organization:** Amazon Web Services (AWS)  
+**Completion Date:** 2024  
+**Status:** ✅ Active (Certificate pending image)
+
+Entry-level AWS certification validating foundational knowledge of AWS cloud services. This certification is verified but not currently displayed in the portfolio gallery pending certificate image upload.
+
+**Resume Reference:**
+- Title: AWS Certified Cloud Practitioner
+- Issuer: Amazon Web Services
+- Date: 2024
+- Add to resume if needed: "AWS Certified Cloud Practitioner (AWS, 2024)"
 
 ---
 
@@ -213,9 +207,9 @@ Each certification card includes:
 These certifications collectively demonstrate:
 
 1. **DevOps Expertise** — Specialized AWS DevOps fundamentals and career readiness
-2. **Cloud Engineering** — AWS expertise for modern cloud infrastructure
+2. **Cloud Career Development** — AWS RE/START Graduate program completion
 3. **Linux Mastery** — Deep knowledge of enterprise Linux systems and RHCSA training
-4. **Networking Fundamentals** — Strong understanding of network infrastructure
+4. **Networking Fundamentals** — Cisco CCNA certified network expertise
 5. **Continuous Learning** — Commitment to professional development across multiple platforms
 
 These qualifications directly support roles in:
