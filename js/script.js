@@ -377,7 +377,9 @@ const certs = [
     date: '2025',
     desc: 'AWS cloud fundamentals and career readiness program',
     credentialId: null,
-    links: []
+    links: [
+      { label: 'View on Credly', url: 'https://www.credly.com/badges/c5d1c70b-08ac-49ef-aea1-fdc23129df0c/public_url' }
+    ]
   },
   {
     icon: '🐧',

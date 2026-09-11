@@ -43,6 +43,7 @@ This certification validates practical DevOps skills and knowledge of AWS servic
 
 **Issuing Organization:** Amazon Web Services (AWS)  
 **Completion Date:** 2025  
+**Badge ID:** c5d1c70b-08ac-49ef-aea1-fdc23129df0c  
 **Status:** ✅ Active
 
 ### Description
@@ -62,6 +63,10 @@ Validates foundational AWS knowledge and demonstrates commitment to cloud career
 - DevOps and Site Reliability Engineering
 - Infrastructure automation and deployment
 - AWS ecosystem proficiency
+
+### Verification Links
+- **View on Credly:** https://www.credly.com/badges/c5d1c70b-08ac-49ef-aea1-fdc23129df0c/public_url
+- **Badge ID:** c5d1c70b-08ac-49ef-aea1-fdc23129df0c
 
 ---
 
