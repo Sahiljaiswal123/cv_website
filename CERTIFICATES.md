@@ -1,7 +1,10 @@
 # Sahil Jaiswal — Certifications Documentation
 
 ## Overview
-This document provides detailed information about all professional certifications earned by Sahil Vijendra Jaiswal.
+This document provides detailed information about all professional certifications and course completions earned by Sahil Vijendra Jaiswal.
+
+**Total Certifications:** 6  
+**Last Updated:** September 2026
 
 ---
 
@@ -34,17 +37,103 @@ This certification validates practical DevOps skills and knowledge of AWS servic
 - **View Credential:** https://www.credly.com/users/sahiljaiswal24
 - **Certificate Code:** 10716430
 
-### Evidence/Proof
-- Official SimpliLearn Certificate of Completion
-- Credly Digital Badge (viewable at Credly profile)
+---
+
+## 2. AWS RE/START Graduate
+
+**Issuing Organization:** Amazon Web Services (AWS)  
+**Completion Date:** 2025  
+**Status:** ✅ Active
+
+### Description
+AWS RE/START is a career-development program designed to help career changers build cloud skills through hands-on learning and cloud computing fundamentals.
+
+### Key Topics Covered
+- AWS cloud fundamentals and architecture
+- Core AWS services (compute, storage, database, networking)
+- Cloud deployment models and service models
+- AWS security and compliance basics
+- Cost optimization and best practices
+- Practical hands-on labs and real-world scenarios
+
+### Relevance
+Validates foundational AWS knowledge and demonstrates commitment to cloud career development, applicable to:
+- Cloud infrastructure roles
+- DevOps and Site Reliability Engineering
+- Infrastructure automation and deployment
+- AWS ecosystem proficiency
 
 ---
 
-## 2. AWS Certified Cloud Practitioner
+## 3. RHCSA Redhat Linux Training (Udemy)
+
+**Issuing Organization:** Udemy  
+**Completion Date:** November 23, 2024  
+**Instructor:** Kumar Vipin  
+**Course Duration:** 11.5 total hours  
+**Certificate ID:** UC-b2fca569-cfc7-47b1-9d88-e5279579b294  
+**Status:** ✅ Active
+
+### Description
+Comprehensive RHCSA (Red Hat Certified System Administrator) Linux training course conducted in Hindi, covering practical system administration skills and Red Hat Enterprise Linux concepts.
+
+### Key Topics Covered
+- RHEL system installation and configuration
+- User and group account management
+- Linux file systems and storage management
+- Network configuration and troubleshooting
+- System security and SELinux
+- Service management with systemd
+- Process management and system monitoring
+- Shell scripting and automation
+
+### Relevance
+Deepens expertise in Linux system administration with practical RHCSA-aligned training, directly applicable to:
+- Enterprise Linux server management (RHEL/CentOS)
+- Production infrastructure operations
+- System hardening and security
+- Automation and scripting
+- IIT Bombay Linux infrastructure management
+
+### Verification Links
+- **View Certificate:** https://udemy.com/certificate/UC-b2fca569-cfc7-47b1-9d88-e5279579b294
+- **Certificate ID:** UC-b2fca569-cfc7-47b1-9d88-e5279579b294
+
+---
+
+## 4. Cisco Certified Network Associate (CCNA)
+
+**Issuing Organization:** RST Forum / Cisco Systems  
+**Completion Date:** September 7, 2023  
+**Status:** ✅ Active
+
+### Description
+Industry-recognized networking certification validating knowledge of networking fundamentals, routing, switching, security, and troubleshooting. Completed training through RST Forum with course completion certification from Cisco.
+
+### Key Topics Covered
+- OSI and TCP/IP models
+- Subnetting and IP addressing
+- Routing protocols (OSPF, EIGRP, BGP basics)
+- Switching and VLANs
+- Network security (ACL, firewalls, VPN)
+- Network troubleshooting
+- Cisco device configuration
+
+### Relevance
+Validates networking expertise essential for infrastructure and DevOps roles, including:
+- Network architecture and design
+- VPC and subnet configuration (AWS)
+- Firewall and security group management
+- VPN and secure communication
+- Load balancing and traffic management
+- Troubleshooting network connectivity issues
+
+---
+
+## 5. AWS Certified Cloud Practitioner
 
 **Issuing Organization:** Amazon Web Services (AWS)  
 **Completion Date:** 2024  
-**Credential ID:** -  
 **Status:** ✅ Active
 
 ### Description
@@ -66,11 +155,10 @@ Validates foundational AWS knowledge essential for cloud engineering roles, incl
 
 ---
 
-## 3. Red Hat Enterprise Linux (RHEL) Administration
+## 6. Red Hat Enterprise Linux (RHEL) Administration
 
 **Issuing Organization:** Red Hat  
 **Completion Date:** 2023  
-**Credential ID:** -  
 **Status:** ✅ Active
 
 ### Description
@@ -92,36 +180,6 @@ Validates expertise in Linux administration, directly applicable to:
 - System optimization and troubleshooting
 - Infrastructure automation foundations
 - IIT Bombay production infrastructure (RHEL 8 and Ubuntu servers)
-
----
-
-## 4. Cisco CCNA (Cisco Certified Network Associate)
-
-**Issuing Organization:** Cisco Systems  
-**Completion Date:** 2023  
-**Credential ID:** -  
-**Status:** ✅ Active
-
-### Description
-Industry-recognized networking certification validating knowledge of networking fundamentals, routing, switching, security, and troubleshooting.
-
-### Key Topics Covered
-- OSI and TCP/IP models
-- Subnetting and IP addressing
-- Routing protocols (OSPF, EIGRP, BGP basics)
-- Switching and VLANs
-- Network security (ACL, firewalls, VPN)
-- Network troubleshooting
-- Cisco device configuration
-
-### Relevance
-Validates networking expertise essential for infrastructure and DevOps roles, including:
-- Network architecture and design
-- VPC and subnet configuration (AWS)
-- Firewall and security group management
-- VPN and secure communication
-- Load balancing and traffic management
-- Troubleshooting network connectivity issues
 
 ---
 
@@ -149,11 +207,11 @@ Each certification card includes:
 
 These certifications collectively demonstrate:
 
-1. **Cloud Engineering** — AWS expertise for modern cloud infrastructure
-2. **DevOps & Automation** — Practical CI/CD, IaC, and deployment skills
-3. **Linux Mastery** — Deep knowledge of enterprise Linux systems
+1. **DevOps Expertise** — Specialized AWS DevOps fundamentals and career readiness
+2. **Cloud Engineering** — AWS expertise for modern cloud infrastructure
+3. **Linux Mastery** — Deep knowledge of enterprise Linux systems and RHCSA training
 4. **Networking Fundamentals** — Strong understanding of network infrastructure
-5. **Continuous Learning** — Commitment to professional development
+5. **Continuous Learning** — Commitment to professional development across multiple platforms
 
 These qualifications directly support roles in:
 - DevOps Engineering
@@ -162,22 +220,28 @@ These qualifications directly support roles in:
 - Site Reliability Engineering (SRE)
 - Infrastructure Engineering
 - Linux System Administration
+- Network Engineering
 
 ---
 
 ## Keeping Certifications Current
 
-### AWS Certified Cloud Practitioner
+### AWS Certifications (Cloud Practitioner, DevOps On AWS, RE/START)
 - Typically valid for 3 years from issuance
 - Renewal: Retake exam or pursue advanced AWS certifications
+- AWS Learning Paths help maintain currency
 
 ### RHEL Certification
 - Red Hat certifications typically valid for 3 years
 - Can be renewed through exam or participating in Red Hat training
 
 ### Cisco CCNA
-- Valid for 3 years from issuance
+- Valid for 3 years from issuance (Sept 7, 2023 - Sept 7, 2026)
 - Renewal options: Retake exam or pursue Cisco continuing education
+
+### Udemy Certifications
+- Course completion certificates are permanent records
+- Demonstrates continuous learning and skill development
 
 ---
 
@@ -185,12 +249,14 @@ These qualifications directly support roles in:
 
 Recommended certifications to pursue:
 - **AWS Solutions Architect Associate** — Advanced AWS skills
+- **AWS DevOps Engineer Professional** — Specialized DevOps expertise
 - **Kubernetes Administrator (CKA)** — Container orchestration expertise
 - **HashiCorp Certified: Terraform Associate** — Infrastructure as Code mastery
 - **Linux Foundation Certified System Administrator (LFCSA)** — Advanced Linux
-- **AWS DevOps Engineer Professional** — Specialized DevOps expertise
+- **Red Hat Certified Engineer (RHCE)** — Advanced RHEL expertise
 
 ---
 
 **Last Updated:** September 2026  
-**Portfolio Version:** Current
+**Portfolio Version:** Current  
+**Total Hours of Formal Training:** 11.5+ hours (documented)

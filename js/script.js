@@ -372,6 +372,35 @@ const certs = [
   },
   {
     icon: '☁️',
+    title: 'AWS RE/START Graduate',
+    issuer: 'Amazon Web Services',
+    date: '2025',
+    desc: 'AWS cloud fundamentals and career readiness program',
+    credentialId: null,
+    links: []
+  },
+  {
+    icon: '🐧',
+    title: 'RHCSA Redhat Linux Training',
+    issuer: 'Udemy',
+    date: 'Nov 2024',
+    desc: 'Red Hat Certified System Administrator training in Hindi',
+    credentialId: 'UC-b2fca569-cfc7-47b1-9d88-e5279579b294',
+    links: [
+      { label: 'View Certificate', url: 'https://udemy.com/certificate/UC-b2fca569-cfc7-47b1-9d88-e5279579b294' }
+    ]
+  },
+  {
+    icon: '🌐',
+    title: 'Cisco Certified Network Associate (CCNA)',
+    issuer: 'RST Forum / Cisco Systems',
+    date: 'Sept 2023',
+    desc: 'Enterprise networking, routing, switching & network security',
+    credentialId: null,
+    links: []
+  },
+  {
+    icon: '☁️',
     title: 'AWS Cloud Practitioner',
     issuer: 'Amazon Web Services',
     date: '2024',
@@ -385,15 +414,6 @@ const certs = [
     issuer: 'Red Hat',
     date: '2023',
     desc: 'Linux administration & system management',
-    credentialId: null,
-    links: []
-  },
-  {
-    icon: '🌐',
-    title: 'Cisco CCNA',
-    issuer: 'Cisco Systems',
-    date: '2023',
-    desc: 'Enterprise networking, routing & switching',
     credentialId: null,
     links: []
   }
