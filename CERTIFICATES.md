@@ -3,9 +3,10 @@
 ## Overview
 This document provides detailed information about all professional certifications and course completions earned by Sahil Vijendra Jaiswal.
 
-**Total Certifications:** 5  
+**Total Certifications:** 6  
+**Gallery Featured:** 5 (with certificate images)  
 **Last Updated:** September 2026  
-**Note:** AWS Cloud Practitioner (2024) maintained but not displayed in gallery (image pending)
+**Note:** AWS Cloud Practitioner displayed on main page but not in detailed gallery (image-only gallery)
 
 ---
 

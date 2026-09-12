@@ -402,6 +402,15 @@ const certs = [
     links: []
   },
   {
+    icon: '☁️',
+    title: 'AWS Cloud Practitioner',
+    issuer: 'Amazon Web Services',
+    date: '2024',
+    desc: 'Cloud infrastructure, provisioning & AWS core services',
+    credentialId: null,
+    links: []
+  },
+  {
     icon: '🎩',
     title: 'Red Hat Enterprise Linux (RHEL)',
     issuer: 'Red Hat',
